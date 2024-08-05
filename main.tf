@@ -21,3 +21,15 @@ resource "azurerm_resource_group" "example" {
   name     = "example-resources"
   location = "East US"
 }
+variable "client_id" {
+  
+}
+variable "client_secret" {
+  
+}
+variable "subscription_id" {
+  
+}
+variable "tenant_id" {
+  
+}

@@ -18,6 +18,11 @@ resource "azurerm_resource_group" "example" {
   name     = "example-resources"
   location = "East US"
 }
+resource "azurerm_resource_group" "example1" {
+  name     = "example-resources-01"
+  location = "East US"
+}
+
 # variable "client_id" {
   
 # }
